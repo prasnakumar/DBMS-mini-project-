@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url(../images/1.jpg);
+    border: 0px;
+    height: 100%;
+}
+
+.display-1 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-2 {
+    color: white;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}

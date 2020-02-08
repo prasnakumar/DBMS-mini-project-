@@ -1,0 +1,112 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+/*potrei farei media query e caricare un'immagine più piccola per gli schermi più stretti o in portrait*/
+.bg {
+    background-image: url(../22.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-height: 750px) and (orientation: portrait) {
+    .bg {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../22.jpg);
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.5);
+    flex: 1;
+}
+
+
+.col-sm-6{
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#alignedRow {
+    display: flex;
+    align-items: center;
+}
+
+.col-sm-12-fluid {
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width: 576px) {
+    .col-left-border {
+        border-left: 1px solid grey;
+    }
+}
+/*
+.col-sm-6 * {
+    width: 95%;
+}
+*/
+.form-control {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.btn {
+    margin-bottom: 5%;
+}
+
+.card-header {
+    font-weight: lighter;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.card-header-landscape {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) and (orientation: landscape) {
+    .jumbotron {
+        display: none;
+    }
+    .card-header-portrait {
+        display: none;
+    }
+    .card-header-landscape {
+        font-size: 4vw;
+        display: block;
+    }
+    .container-fluid {
+        padding: 2%;
+    }
+}
+
+.display-1 {
+    font-size: 10vw;
+}
+
+.display-4 {
+    font-size: 4vw;
+}
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}

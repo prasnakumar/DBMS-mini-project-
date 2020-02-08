@@ -1,0 +1,90 @@
+body {
+    padding-bottom: 60px;
+}
+
+.bg {
+    padding-top: 56px;
+}
+
+.jumbotron{
+    margin-bottom: auto;
+}
+
+.menu {
+    margin-bottom: auto;
+    background-color: white;
+}
+
+.classiche {
+    background-color: white;
+}
+
+.header-categoria {
+    border-top: 1px solid grey;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.newline {
+    margin-top: 10px;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#content {
+  padding-bottom: 100px;
+}
+
+#footer {
+    display: block;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40;
+    border-top: 3px solid #343a40;
+    color: white;
+}
+
+.wiggle {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.3s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.hidden {
+    display: none;
+}
+
+.cart-menu {
+    min-width: 15vw !important;
+    padding: 10% 1% 1% 10%;
+}
+
+.qty-input {
+    max-width: 90% !important;
+}
+
+.no-borders {
+    margin : 0px;
+
+}

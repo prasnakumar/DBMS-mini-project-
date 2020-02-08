@@ -1,0 +1,21 @@
+.bg-lightblue {
+    background-color: #e7f5fe;
+}
+
+.notification-row {
+    min-height: 7.5vh;
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+}
+
+.icon-col {
+    border-right: 1px solid #e6e6e6;
+}
+
+.bg-lightyellow {
+    background-color: #fff9e6;
+}
+
+.bg-lightgreen {
+    background-color: #e6ffe6;
+}
